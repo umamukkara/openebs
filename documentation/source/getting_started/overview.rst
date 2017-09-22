@@ -16,7 +16,7 @@ Currently (OpenEBS 0.3 release), a DevOps developer gets the following from the 
 
 Using the above tools, a developer can easily provision the persistent storage from the hostdir of the minion node. Much of the tasks for the developer are automated by the OpenEBS storage class,including, scheduling the volume and replicas on k8s minions, connectivity to the container via a mount point.
 
-OpenEBS cli (mayactl) helps the developer to manage the application data protection tasks such as snapshotting, restoring the data. 
+With OpenEBS 0.3, the application developer in k8s environment can provision the persistent storage volumes for the application and manage the data protection operations such as taking a snapshot and restoring to a snapshot etc. 
 
 .. image:: openebs-dev.png
 
