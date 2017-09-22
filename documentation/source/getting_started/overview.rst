@@ -12,9 +12,13 @@ Currently (OpenEBS 0.3 release), a DevOps developer gets the following from the 
 
 - OpenEBS operator yaml file that installs the OpenEBS components onto a k8s cluster
 - A set of yaml files with example configuration of how to use OpenEBS storage classes 
-- A CLI for monitoring the persistent volume and its replica(s)
+- A cli tool called mayactl for monitoring the persistent volume and its replica(s)
 
 Using the above tools, a developer can easily provision the persistent storage from the hostdir of the minion node. Much of the tasks for the developer are automated by the OpenEBS storage class,including, scheduling the volume and replicas on k8s minions, connectivity to the container via a mount point.
+
+OpenEBS cli (mayactl) helps the developer to manage the application data protection tasks such as snapshotting, restoring the data. 
+
+.. image:: 
 
 **See Also:**
 
