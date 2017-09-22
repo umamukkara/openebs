@@ -18,7 +18,7 @@ Using the above tools, a developer can easily provision the persistent storage f
 
 OpenEBS cli (mayactl) helps the developer to manage the application data protection tasks such as snapshotting, restoring the data. 
 
-.. image:: 
+.. image:: openebs-dev.png
 
 **See Also:**
 
